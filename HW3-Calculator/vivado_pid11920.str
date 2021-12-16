@@ -1,0 +1,153 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 11920
+License: Customer
+
+Current time: 	Thu Dec 16 14:59:48 KST 2021
+Time zone: 	Korea Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 174 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	mokhw
+User home directory: C:/Users/mokhw
+User working directory: C:/Xilinx/DigitalSystem/HW3-Calculator
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/mokhw/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/mokhw/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/mokhw/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Xilinx/DigitalSystem/HW3-Calculator/vivado.log
+Vivado journal file location: 	C:/Xilinx/DigitalSystem/HW3-Calculator/vivado.jou
+Engine tmp dir: 	C:/Xilinx/DigitalSystem/HW3-Calculator/.Xil/Vivado-11920-DESKTOP-00TQ7BI
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	209 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 501 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Xilinx\DigitalSystem\HW3-Calculator\HW3-Calculator.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Xilinx/DigitalSystem/HW3-Calculator/HW3-Calculator.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 71 MB (+72036kb) [00:00:07]
+// [Engine Memory]: 480 MB (+351988kb) [00:00:07]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 86 MB (+11622kb) [00:00:09]
+// [Engine Memory]: 561 MB (+59784kb) [00:00:09]
+// [GUI Memory]: 92 MB (+2480kb) [00:00:10]
+// [Engine Memory]: 591 MB (+1484kb) [00:00:10]
+// [GUI Memory]: 97 MB (+71kb) [00:00:11]
+// [GUI Memory]: 104 MB (+2175kb) [00:00:11]
+// Tcl Message: open_project C:/Xilinx/DigitalSystem/HW3-Calculator/HW3-Calculator.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 610 MB. GUI used memory: 45 MB. Current time: 12/16/21 2:59:53 PM KST
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 839.707 ; gain = 122.008 
+// Project name: HW3-Calculator; location: C:/Xilinx/DigitalSystem/HW3-Calculator; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bx (ck)
+// [Engine Memory]: 621 MB (+1174kb) [00:00:13]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+// Elapsed time: 53 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // J
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), calculate_inst : calculate (calculate.v)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), calculate_inst : calculate (calculate.v)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("calculate.v", 171, 261); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 632 MB. GUI used memory: 54 MB. Current time: 12/16/21 3:01:16 PM KST
+// Elapsed time: 37 seconds
+selectCodeEditor("calculate.v", 465, 303); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("calculate.v", 149, 178); // ce (w, ck)
+selectCodeEditor("calculate.v", 149, 178, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("calculate.v", 149, 207); // ce (w, ck)
+selectCodeEditor("calculate.v", 149, 207, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("calculate.v", 197, 191); // ce (w, ck)
+selectCodeEditor("calculate.v", 44, 182); // ce (w, ck)
+selectCodeEditor("calculate.v", 51, 182); // ce (w, ck)
+// Elapsed time: 41 seconds
+selectCodeEditor("calculate.v", 495, 317); // ce (w, ck)
+selectCodeEditor("calculate.v", 492, 520); // ce (w, ck)
+selectCodeEditor("calculate.v", 525, 292); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), seg_display_inst : seg_display (seg_display.v)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), seg_display_inst : seg_display (seg_display.v)]", 6, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("top.v", 367, 334); // ce (w, ck)
+selectCodeEditor("top.v", 106, 193); // ce (w, ck)
+selectCodeEditor("top.v", 106, 193, false, false, false, false, true); // ce (w, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "seg_display.v", 1); // k (j, ck)
+selectCodeEditor("seg_display.v", 224, 199); // ce (w, ck)
+selectCodeEditor("seg_display.v", 209, 368); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calculate.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "seg_display.v", 1); // k (j, ck)
+selectCodeEditor("seg_display.v", 203, 235); // ce (w, ck)
+selectCodeEditor("seg_display.v", 195, 452); // ce (w, ck)
+selectCodeEditor("seg_display.v", 234, 192); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 2); // k (j, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 267, 421); // ce (w, ck)
+selectCodeEditor("top.v", 264, 390); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 313, 223); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("top.v", 417, 255); // ce (w, ck)
+selectCodeEditor("top.v", 469, 104); // ce (w, ck)
+selectCodeEditor("top.v", 443, 306); // ce (w, ck)
